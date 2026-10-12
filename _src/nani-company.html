@@ -1,0 +1,52 @@
+<h1>The Nani Company</h1>
+<p class="lead">The Nani Company is Local Labs' Etsy shop. It sells digital products that help people plan their time and manage their money.</p>
+
+<h2>What the shop sells</h2>
+<ul>
+  <li><strong>Digital planners</strong> for organising days, weeks and goals.</li>
+  <li><strong>Printable calendars</strong> to download and print at home.</li>
+  <li><strong>Spreadsheet tools</strong> for budgeting, debt payoff and sinking funds (saving ahead for planned expenses).</li>
+</ul>
+<p>All products are digital downloads. Orders, payments and file delivery are handled by Etsy.</p>
+<p><a class="button" href="https://www.etsy.com/shop/TheNaniCompany">Visit The Nani Company on Etsy</a></p>
+
+<h2 id="pinterest">Pinterest integration</h2>
+<p>Local Labs has built a small internal app that connects to Pinterest. It exists only to promote The Nani Company's own products on The Nani Company's own Pinterest account.</p>
+
+<h3>What the app does</h3>
+<ul>
+  <li>Creates pins for The Nani Company's own Etsy listings, using our own product images, linking to those listings.</li>
+  <li>Saves those pins to our own Pinterest boards, and creates or organises those boards.</li>
+  <li>Reads performance numbers (for example impressions, saves and clicks) for our own pins, so we can see which products people are interested in.</li>
+  <li>Reads basic information about our own Pinterest account to confirm it is connected to the right account.</li>
+</ul>
+
+<h3>Who uses it</h3>
+<p>Only Local Labs. The app is an internal tool. It is not offered to other people or businesses, there is no way to sign up for it, and it only ever connects to Local Labs' own Pinterest account.</p>
+
+<h3>Pinterest permissions it requests</h3>
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr><th scope="col">Scope</th><th scope="col">Why we need it</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>boards:read</code></td><td>List our own boards so pins are saved to the right one.</td></tr>
+    <tr><td><code>boards:write</code></td><td>Create and organise our own boards for product categories.</td></tr>
+    <tr><td><code>pins:read</code></td><td>List our own pins and read their performance numbers, so we don't post duplicates and can see what works.</td></tr>
+    <tr><td><code>pins:write</code></td><td>Create pins of our own Etsy listings.</td></tr>
+    <tr><td><code>user_accounts:read</code></td><td>Read our own account's basic details to confirm the right account is connected. Pinterest also requires this permission for reading pin analytics.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>How it handles data</h3>
+<ul>
+  <li>It accesses only Local Labs' own Pinterest account: our boards, our pins, analytics for our pins and our basic account information.</li>
+  <li>It does not collect data about other Pinterest users.</li>
+  <li>Its Pinterest access token is stored in a local file on the owner's computer and is never sent anywhere except Pinterest's API.</li>
+  <li>It has no user accounts, sets no cookies and contains no ads or analytics trackers.</li>
+  <li>We do not sell or share any data it handles.</li>
+  <li>Access can be removed at any time by revoking the app in Pinterest's settings and deleting the local token file.</li>
+</ul>
+<p>Full details are in our <a href="/privacy/">Privacy Policy</a>. Questions: <a href="mailto:support@locallabsai.com">support@locallabsai.com</a>.</p>
